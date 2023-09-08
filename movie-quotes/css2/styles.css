@@ -1,0 +1,55 @@
+.bolded {
+
+  font-weight: bold;
+}
+
+.line {
+  line-height: 150%;
+}
+
+.smallfont {
+  font-size: 150%;
+}
+
+.footer {
+  text-align: center;
+  font-size: 35%;
+}
+
+.center {
+  text-align: center
+}
+
+.color {
+  color: gray;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 4%;
+}
+
+h3 {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: lavender;
+  padding: 1%;
+}
+
+h4 {
+  text-align: center;
+}
+
+header {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: black;  
+  color: antiquewhite;
+  margin-bottom: -1.25rem;
+}
+
+img{
+  width: 20%;
+}
+
+
