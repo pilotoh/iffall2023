@@ -1,0 +1,64 @@
+html {
+    font-family: 'Merriweather', serif;
+    font-size: 15pt;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: firebrick;
+}
+
+h2 {
+    margin-left: 4%;
+    padding-top: 2%;
+}
+
+h4 {
+    margin-left: 7%;
+    color: gray;
+}
+
+p {
+    font-size: 15pt;
+    margin-left: 10%;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bigspacing {
+    letter-spacing: 0.1em;
+}
+
+.smallspace {
+    letter-spacing: -0.1em;
+}
+
+.lower {
+   text-transform: lowercase;
+}
+
+.upper {
+   text-transform: uppercase;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.through {
+    text-decoration: line-through;
+}
+
+.overline {
+    text-decoration: overline;
+}
