@@ -1,0 +1,40 @@
+html{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: whitesmoke;
+}
+img{
+    width:20%;
+
+}
+p{
+    margin-left: 12%;
+    margin-right: 15%;
+    color:darkslategray;
+    
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+h2{
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+
+}
+h4{
+    margin-left: 8%;
+}
+.bolded {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+h5{
+    margin-left: 9%;
+
+}
