@@ -1,0 +1,170 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url("../background/apple.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.em {
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10%;
+    font-size: 80px;
+    margin: 0;
+    color: purple;
+}
+
+p {
+    /* line-height: 0px; */
+    line-height: 1.4;
+    font-size: 18px;
+    /* padding-top: 0%; */
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 10%;
+    font-size: 30px;
+    margin: 0;
+    color: purple;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    /* padding-top: 40px; */
+    line-height: 0px;
+    margin-bottom: 62px;
+    /* padding-bottom: 0px; */
+    color: purple;
+
+}
+
+.column1 {
+    width: 961px;
+    margin: auto;
+    padding-top: 0px;
+
+}
+
+.first_section {
+    margin-bottom: 0px;
+    background-color: lightgreen;
+    padding: 1.5%;
+
+
+}
+
+.apple {
+    height: 300px;
+    width: 400px;
+    float: right;
+    margin-left: 38px;
+    margin-right: 1px;
+    margin-top: -3px;
+    margin-bottom: 39px;
+}
+
+.second_column {
+
+    margin-bottom: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: lightpink;
+}
+
+.berry {
+
+    height: 150px;
+    width: 200px;
+    margin-bottom: 39px;
+    float: left;
+    padding-right: 3%;
+}
+
+ul.grid {
+    width: 961px;
+    margin: auto;
+    list-style-type: none;
+    /* margin: 0%; */
+    /* padding-left: 1px; */
+}
+
+.grid {
+    display: grid;
+    flex: auto;
+    column-gap: 1px;
+    row-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 4px;
+
+}
+
+.grids {
+    height: 171px;
+    width: 473px;
+}
+
+h4,
+.p4 {
+    line-height: 1.4;
+     font-size: 18px;
+    margin-top: -5px;
+
+}
+
+h4 {
+    padding-top: 0px;
+    font-size: 20px;
+
+    /* padding-right: 10%; */
+}
+
+.p4 {
+    display: block;
+    width: 430px;
+    /* margin-left:-11px; */
+    margin-top: -20px;
+}
+
+.column3 {
+    height: 400px;
+    background-color: burlywood;
+    margin: 0%;
+
+}
+
+.container {
+    padding-top: 45px;
+    /* padding-bottom:98px; */
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.p5 {
+
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.4;
+    color: red;
+}
+.closer{
+    height: 100px;
+    background-color: beige;
+    padding-top: 20px;
+}
+.closercontainer{
+    width:400px;
+    margin-left:400px;
+
+}
+.p6{
+    color: green;
+}
