@@ -1,0 +1,267 @@
+/* Old Navy */
+a#btn_oldNavy {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: darkslateblue;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_oldNavy:hover {
+    background-color: white;
+    color: darkslateblue;
+}
+
+/* Botanical Gardens */
+
+a#btn_missouriBotanicalGarden {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    padding: 8px 16px;
+    color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+
+}
+
+a#btn_missouriBotanicalGarden:hover {
+    font-size: 32px;
+
+    color: silver;
+}
+
+/* NIKE */
+
+a#btn_nike {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 90px;
+    padding: 8px 16px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .2s;
+
+}
+
+a#btn_nike:hover {
+    font-size: 50px;
+    background-color: Black;
+    /* Green */
+    color: white;
+
+}
+
+/* NEW YoRKER */
+
+a#btn_newyorker {
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    font-family: 'Times New Roman', Times, seri;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_newyorker:hover {
+    color: white;
+    background-color: Black;
+}
+
+/* Facebook */
+
+a#btn_facebook {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 6px 40px 0 40px;
+    background-color:#4267B2;
+    color: #fff;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: all .6s; 
+       text-decoration: none;
+
+}
+
+a#btn_facebook:hover {
+    color:#4267B2;
+    background-color:#fff;
+
+}
+/* cartoon network */
+
+a#btn_cartoonNetwork{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .6s; 
+}
+a#btn_cartoonNetwork:hover {
+    background-color:#fff;
+}
+a#btn_cartoonNetwork:hover {animation: shaking 0.4s infinite;}
+@keyframes shaking {
+   0% {transform: rotate(0deg);}
+   20% {transform: rotate(-5deg);}
+   50% {transform: rotate(0deg);}
+   70% {transform: rotate(5deg);}
+   100% {transform: rotate(0deg);}
+}
+a#btn_cartoonNetwork::after {
+    color:white;
+    background-color:black;
+    content: 'Network';
+
+}
+
+/* moo */
+
+a#btn_moo{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    color: green;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    transition: all .6s; 
+}
+a#btn_moo:hover  {
+    display: inline-block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 0 50% 50% 50%;
+    border: 1px solid white;
+    background-color: green;
+    color: burlywood;
+    margin-top: 100px;
+
+  }
+  
+  /* NPR */
+  a#btn_npr{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 85px;
+    color: black;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .6s; 
+
+}
+a#btn_npr:hover  {
+    color:red;
+    font-size: 70px;
+
+    transform: rotate(360deg);
+
+}
+
+/* apple */
+a#btn_apple{
+ display: inline-block;
+height: 50px;
+box-sizing: border-box;
+margin: auto;
+margin-top: 85px;
+color: gray;
+font-size: 50px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-decoration: none;
+transition: all .6s; 
+}
+
+a#btn_apple:hover{
+    color:darkslategray;
+
+}
+
+/* LYFT */
+
+a#btn_lyft{
+    display: inline-block;
+   height: 70px;
+   /* box-sizing: border-box; */
+   margin: auto;
+   border-radius: 65px;
+   margin-top: 80px;
+   background-color: #ff00bf;
+   color: white;
+   font-size: 50px;
+   padding: 6px 40px 0 40px;
+   cursor: pointer;
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold;
+      text-decoration: none;
+   transition: 0.6s; 
+   }
+ 
+
+   /* a#btn_lyft span {
+    cursor: pointer;
+    color: white;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+   a#btn_lyft:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -20px;
+    transition: 0.1s;
+  } */
+  
+  a#btn_lyft:hover span {
+    padding-right: 25px;
+    padding-left: 25px;
+    color: black;
+
+  }
+  
