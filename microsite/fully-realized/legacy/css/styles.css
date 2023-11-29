@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    background-color: black;
+    font-weight: 400;
+    font-family:sans-serif;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    font-size: 15px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background: black;
+
+
+}
+header{
+    background: whitesmoke;
+    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav{
+    text-align: center;
+    float: center;
+    padding-right: 5%;
+}
+nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    position: relative;
+}
+
+nav a {
+color: lightgray;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav a:hover{
+    color: white;
+}
+nav a:before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+nav a:hover::before{
+    width: 100%;
+}
+li:nth-child(4){
+    font-style: italic; 
+    text-decoration: underline;
+     color: white;
+ }
+.intro{
+    background-color: #444;
+    background-image: url(../hong2.webp);
+    padding-top: 40%;
+    padding-bottom: 4%;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.span{
+max-width: 960px;
+margin-left: 5%;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+
+
+
+}
+
+
+.image p{
+    font-size: 22px;
+    /* padding: 6px; */
+    color: white;
+    line-height: 132%;
+    
+
+
+}
+.image h1{
+    text-align: center;
+    padding-bottom: 18px;
+    color: lightcyan;
+    font-size: 40px;
+}
+img{
+    max-width: 500px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 0;
+    border-radius: 10px;
+}
+footer{
+    color: black;
+    font-family: sans-serif;
+    background-color: white;
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+@media only screen and (max-device-width : 600px)  {
+    .image h1{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 15px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    img{
+        max-width: 300px;
+    }
+    .intro{
+        font-size: 10px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .container{
+        font-size: 15px;
+        background-color: black;
+
+    }
+}
+    
