@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-weight: 600px;
+    font-family:sans-serif;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    font-size: 15px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background: black;
+
+}
+header{
+    background: whitesmoke;
+    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav{
+    text-align: center;
+    float: center;
+    padding-right: 5%;
+}
+nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+    position: relative;
+}
+
+nav a {
+color: whitesmoke;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav a:hover{
+    color: white;
+}
+nav a:before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+nav a:hover::before{
+    width: 100%;
+}
+li:nth-child(2){
+   font-style: italic; 
+   text-decoration: underline;
+    color: white;
+}
+/* .intro{
+    background-color: white;
+    background-image: url(../intro-pic.jpeg);
+    padding-top: 670px;
+    padding-bottom: 10px;
+    background-size: cover;
+    color: white;
+    font-size: 30px;
+}
+.span{
+max-width: 400px;
+margin-left: 10px;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+
+} */
+.intro{
+    background-color: #444;
+    background-image: url(../hong10.webp);
+    padding-top: 40%;
+    padding-bottom: 30%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #191970;
+    font-size: 30px;
+}
+.span{
+max-width: 960px;
+margin-left: 5%;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+.image{
+
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+   padding-bottom: 3%;
+
+}
+
+.text p{
+    padding-left: 15%;
+
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    /* padding: 6px; */
+    color: black;
+    padding-right: 50%;
+
+    line-height: 132%;
+
+
+}
+.image h1{
+    text-align: center;
+    padding-bottom: 18px;
+    color: orange;
+    font-size: 40px;
+
+}
+img{
+    max-width: 500px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+h2{
+    color: orange;
+    padding-left: 15%;
+
+}
+footer{
+    color: orange;
+    font-family: sans-serif;
+    background-color: white;
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+@media only screen and (max-device-width : 600px)  {
+    .image h1{
+        text-align: center;
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 12px;
+        margin-left: 5%;
+        padding-right: 20%;
+
+    }
+    img{
+        max-width: 300px;
+    }
+    h2{
+        font-size: 15px;
+    }
+    .intro{
+        font-size: 10px;
+
+    }
+    footer{
+        font-size: 10px;
+    }
+    .container{
+        font-size: 15px;
+
+    }
+}
+    

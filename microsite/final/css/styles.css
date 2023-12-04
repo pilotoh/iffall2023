@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    background-color: #222;
+    font-weight: 400;
+    font-family:sans-serif;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    font-size: 15px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background: black;
+
+}
+header{
+    background: whitesmoke;
+    
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+nav{
+    text-align: center;
+    float: center;
+    padding-right: 5%;
+}
+nav ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     
+
+}
+nav li{
+    display: inline-block;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+
+    position: relative;
+}
+
+nav a {
+color: lightgray;
+text-decoration: none;
+text-transform: uppercase;
+}
+nav a:hover{
+    color: white;
+}
+nav a:before{
+    content: '';
+    display: block;
+    height: 5px;
+    background-color:white;
+    position: absolute;
+    top: 0;
+    width: 0%;
+}
+nav a:hover::before{
+    width: 100%;
+}
+li:first-child{
+   font-style: italic; 
+   text-decoration: underline;
+
+}
+.intro{
+    background-color: #444;
+    background-image: url(../images/hong1.jpeg);
+    padding-top: 40%;
+    padding-bottom: 4%;
+    background-size: cover;
+    color: #191970;
+    font-size: 30px;
+}
+.span{
+max-width: 960px;
+margin-left: 5%;
+margin-right: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    min-height: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top:-10%;
+    /* width: fit-content;
+    height: fit-content; */
+
+
+}
+
+.text p{
+    font-size: 22px;
+    /* padding: 6px; */
+    color: mediumvioletred;
+   
+    line-height: 132%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 5%;
+
+
+}
+.image h1{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+    color: mediumvioletred;
+    font-size: 40px;
+}
+img{
+    max-width: 600px;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 0;
+    border-radius: 10px;
+    
+    padding-top: 5%;
+}
+footer{
+    color: white;
+    font-family: sans-serif;
+    background-color: lightblue;
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+@media only screen and (max-device-width : 600px)  {
+    .image h1{
+        text-align: center;
+        color: gray;
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 15px;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    img{
+        max-width: 300px;
+    }
+    .intro{
+        font-size: 15px;
+        padding-top: 80%;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .container{
+        font-size: 15px;
+
+    }
+}
+    
